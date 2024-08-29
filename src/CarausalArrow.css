@@ -1,0 +1,38 @@
+.slick-arrow.slick-next,
+.slick-arrow.slick-prev {
+    background-color: #ffff;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 0.8;
+    position: absolute; /* Ensure the arrows are positioned absolutely */
+    z-index: 2; /* Make sure arrows are above the carousel content */
+}
+
+.slick-arrow.slick-next {
+    right: 20px; /* Adjust this value to move the next arrow within the container */
+}
+
+.slick-arrow.slick-prev {
+    left: 20px; /* Adjust this value to move the prev arrow within the container */
+}
+
+.slick-arrow.slick-next:hover,
+.slick-arrow.slick-prev:hover {
+    background-color: gray;
+    opacity: 1;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    display: none;
+}
+
+.arrows {
+    height: 20px;
+    width: 20px;
+    margin: 1px;
+}

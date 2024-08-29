@@ -1,0 +1,124 @@
+ [
+    {
+      "sno": 1,
+      "bpNo": "123456",
+      "consumerName": "John Doe",
+      "billMonth": "August 2024",
+      "dueDate": "30/08/2024",
+      "netPayableAmount": 2000,
+      "amountPayableWithSurcharge": 2100,
+      "lastPaymentAmount": 2000,
+      "lastPaymentDate": "15/08/2024",
+      "tariffCode": "T-123"
+    },
+    {
+      "sno": 2,
+      "bpNo": "654321",
+      "consumerName": "Jane Smith",
+      "billMonth": "July 2024",
+      "dueDate": "25/07/2024",
+      "netPayableAmount": 1800,
+      "amountPayableWithSurcharge": 1900,
+      "lastPaymentAmount": 1800,
+      "lastPaymentDate": "10/07/2024",
+      "tariffCode": "T-456"
+    },
+    {
+        "sno": 3,
+        "bpNo": "654321",
+        "consumerName": "Jane Smith",
+        "billMonth": "July 2024",
+        "dueDate": "25/07/2024",
+        "netPayableAmount": 1800,
+        "amountPayableWithSurcharge": 1900,
+        "lastPaymentAmount": 1800,
+        "lastPaymentDate": "10/07/2024",
+        "tariffCode": "T-456"
+      },
+      {
+          "sno": 4,
+          "bpNo": "654321",
+          "consumerName": "Jane Smith",
+          "billMonth": "July 2024",
+          "dueDate": "25/07/2024",
+          "netPayableAmount": 1800,
+          "amountPayableWithSurcharge": 1900,
+          "lastPaymentAmount": 1800,
+          "lastPaymentDate": "10/07/2024",
+          "tariffCode": "T-456"
+        },
+    {
+        "sno": 5,
+        "bpNo": "654321",
+        "consumerName": "Jane Smith",
+        "billMonth": "July 2024",
+        "dueDate": "25/07/2024",
+        "netPayableAmount": 1800,
+        "amountPayableWithSurcharge": 1900,
+        "lastPaymentAmount": 1800,
+        "lastPaymentDate": "10/07/2024",
+        "tariffCode": "T-456"
+      },
+      {
+          "sno": 6,
+          "bpNo": "654321",
+          "consumerName": "Jane Smith",
+          "billMonth": "July 2024",
+          "dueDate": "25/07/2024",
+          "netPayableAmount": 1800,
+          "amountPayableWithSurcharge": 1900,
+          "lastPaymentAmount": 1800,
+          "lastPaymentDate": "10/07/2024",
+          "tariffCode": "T-456"
+        },
+        {
+            "sno": 7,
+            "bpNo": "654321",
+            "consumerName": "Jane Smith",
+            "billMonth": "July 2024",
+            "dueDate": "25/07/2024",
+            "netPayableAmount": 1800,
+            "amountPayableWithSurcharge": 1900,
+            "lastPaymentAmount": 1800,
+            "lastPaymentDate": "10/07/2024",
+            "tariffCode": "T-456"
+          },
+          {
+              "sno": 8,
+              "bpNo": "654321",
+              "consumerName": "Jane Smith",
+              "billMonth": "July 2024",
+              "dueDate": "25/07/2024",
+              "netPayableAmount": 1800,
+              "amountPayableWithSurcharge": 1900,
+              "lastPaymentAmount": 1800,
+              "lastPaymentDate": "10/07/2024",
+              "tariffCode": "T-456"
+            },
+            {
+                "sno": 9,
+                "bpNo": "654321",
+                "consumerName": "Jane Smith",
+                "billMonth": "July 2024",
+                "dueDate": "25/07/2024",
+                "netPayableAmount": 1800,
+                "amountPayableWithSurcharge": 1900,
+                "lastPaymentAmount": 1800,
+                "lastPaymentDate": "10/07/2024",
+                "tariffCode": "T-456"
+              },
+              {
+                  "sno": 10,
+                  "bpNo": "654321",
+                  "consumerName": "Jane Smith",
+                  "billMonth": "July 2024",
+                  "dueDate": "25/07/2024",
+                  "netPayableAmount": 1800,
+                  "amountPayableWithSurcharge": 1900,
+                  "lastPaymentAmount": 1800,
+                  "lastPaymentDate": "10/07/2024",
+                  "tariffCode": "T-456"
+                }
+    
+  ]
+  

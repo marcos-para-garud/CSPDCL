@@ -1,0 +1,76 @@
+/* General Styles */
+.top-section {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    .top-section {
+      padding: 1rem;
+    }
+  
+    .top-section .flex {
+      flex-direction: column;
+    }
+  
+    .top-section .flex > div {
+      margin-bottom: 1rem;
+    }
+  
+    /* Hide vertical lines on smaller screens */
+    .top-section .border-l {
+      display: none;
+    }
+  
+    /* Adjust font sizes for smaller screens */
+    .text-base {
+      font-size: 0.875rem; /* 14px */
+    }
+  
+    .text-lg {
+      font-size: 1rem; /* 16px */
+    }
+  
+    .text-xl {
+      font-size: 1.125rem; /* 18px */
+    }
+  
+    .text-2xl {
+      font-size: 1.5rem; /* 24px */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .top-section {
+      padding: 0.5rem;
+      
+    }
+  
+    .top-section .flex {
+      flex-direction: row;
+    }
+  
+    .top-section .flex > div {
+      margin-bottom: 0.5rem;
+    }
+  
+    /* Font size adjustments for very small screens */
+    .text-base {
+      font-size: 0.75rem; /* 12px */
+    }
+  
+    .text-lg {
+      font-size: 0.875rem; /* 14px */
+    }
+  
+    .text-xl {
+      font-size: 1rem; /* 16px */
+    }
+  
+    .text-2xl {
+      font-size: 1.25rem; /* 20px */
+    }
+  }
+  
