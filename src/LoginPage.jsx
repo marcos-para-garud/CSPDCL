@@ -90,7 +90,7 @@ const LoginPage = () => {
       
       {/* Login Button */}
       <button 
-        className="w-[170px] bg-red-600 ml-[30%] text-white font-bold py-2 px-4 rounded hover:bg-blue-600"
+        className="w-[170px] bg-red-600 ml-[22%] text-white font-bold py-2 px-4 rounded hover:bg-blue-600"
       >
         Login
       </button>

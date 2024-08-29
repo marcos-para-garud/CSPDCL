@@ -29,9 +29,9 @@ const TopSection = () => {
 
   return (
     <div className={`top-section ${fontSize}`}>
-      <div className="sm:flex sm:justify-between flex relative px-12 bg-white ">
+      <div className="sm:justify-between flex items-center relative py-2 px-2 sm:px-8 md:px-12 bg-white ">
         {/* Email Section */}
-        <div className="flex sm:items-center text-sm gap-1 -ml-10 sm:py-0 py-4">
+        <div className="flex items-center text-sm gap-1 py-0">
           <EnvelopeIcon className="h-5 w-5 text-gray-600 sm:block hidden " />
           <span className='sm:block hidden '>Email us:</span> <span className='sm:font-normal font-semibold'> customercare1912@cspc.co.in</span>
         </div>
@@ -53,9 +53,9 @@ const TopSection = () => {
             </div>
 
             {/* Language Dropdown */}
-            <div className="relative flex items-center gap-1 sm:border-r-0 md:border-r border-[#555555] px-4">
-              <GlobeAltIcon className="h-5 w-5 text-gray-600 sm:block hidden" />
-              <button onClick={toggleDropdown} className="mr-2 focus:outline-none text-sm sm:block hidden">
+            <div className="relative items-center gap-1 sm:border-r-0 md:border-r border-[#555555] px-4 sm:flex hidden">
+              <GlobeAltIcon className="h-5 w-5 text-gray-600" />
+              <button onClick={toggleDropdown} className="mr-2 focus:outline-none text-sm sm:block">
                 भाषा/Language
               </button>
               {isDropdownOpen && (
@@ -73,7 +73,7 @@ const TopSection = () => {
           {/* Font Size Controls */}
           
 
-        <div className="absolute right-0 flex flex-row gap-2 sm:hidden sm:py-0 py-4">
+        <div className="absolute right-0 top-0 flex flex-row gap-2 sm:hidden">
           <button onClick={increaseFontSize} className="border-2 border-black bg-white text-black p-1 font-bold rounded w-16"><span className='text-base'>A+</span></button>
           <button onClick={decreaseFontSize} className="border-2 border-black bg-white text-black p-1 font-bold rounded w-16"><span className='text-base'>A-</span></button>
         </div>

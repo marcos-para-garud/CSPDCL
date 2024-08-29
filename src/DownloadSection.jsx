@@ -5,7 +5,7 @@ import apple from './assets/image 5.png'
 
 const DownloadSection = () => {
   return (
-    <div className="flex flex-col items-center bg-gray-100 sm:p-8 ">
+    <div className="flex flex-col items-center bg-gray-100 sm:p-8 pt-8">
       {/* Heading */}
       <h2 className="text-4xl font-bold mb-4 text-center">Download Our Mobile App</h2>
 
@@ -20,12 +20,14 @@ const DownloadSection = () => {
 
       {/* Available on */}
       
-       
+       <div className='sm:hidden block'>
+       <span className="text-center text-blue-600 text-xl font-bold mt-1">Available In</span>
+       </div>
       
 
       {/* Logos */}
-      <div className="flex mt-2 space-x-4">
-      <span className="text-center text-blue-600 text-xl font-bold mt-1">Available In</span>
+      <div className="flex mt-2 mb-2 space-x-4">
+      <span className="text-center sm:block hidden text-blue-600 text-xl font-bold mt-1">Available In</span>
       <div> <a href='#'><img src={google} alt="App Store" className="w-32 h-auto" /> </a> </div>
        
         <div> <a href='#'><img src={apple} alt="Google Play" className="w-32 h-auto" /> </a> </div>

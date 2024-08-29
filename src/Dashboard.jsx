@@ -25,7 +25,7 @@ const Dashboard = ({ customerName }) => {
   return (
     <div className="min-h-screen bg-gray-100 mb-[14%]">
       {/* Top Section */}
-      <div className="flex justify-between items-center bg-[#F3F3F3] py-4 px-8 shadow-md">
+      <div className="flex justify-between items-center bg-[#F3F3F3] py-4 sm:px-8 px-1 shadow-md">
         <div className="flex items-center">
           <Link to="/">
           <img src={logo} alt="CSPDCL Logo" className="h-16" />
@@ -44,7 +44,7 @@ const Dashboard = ({ customerName }) => {
       {/* Main Section */}
       <div className="flex">
         {/* Left Sidebar */}
-        <div className="sm:w-[12.5%] w-[24%] bg-[#274699] text-white p-4 shadow-md text-sm ps-2">
+        <div className="sm:w-[12.5%] w-[29%] bg-[#274699] text-white p-4 shadow-md text-sm ps-2">
           <ul className="space-y-4">
             <li className="font-semibold cursor-pointer" onClick={toggleConsumerAccount}>
               Consumer Account
