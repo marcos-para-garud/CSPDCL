@@ -5,11 +5,12 @@ import login from './assets/Frame 54.png';
 
 const PaymentSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between p-4 lg:p-8 space-y-4 lg:space-y-0 lg:space-x-4">
+    <div className="flex flex-col lg:flex-row justify-between sm:p-4 p-2  lg:p-8 space-y-4 lg:space-y-0 lg:space-x-4">
       {/* First Box */}
       <div className="w-full lg:w-1/2 p-4 bg-[#274699] rounded-md">
         <h2 className="text-2xl font-semibold mb-6 text-center text-white">Quick Bill Payment</h2>
-        <div className="border-t h-10 w-[50vw] -ml-4 border-white"></div>
+        {/* <div className="border-t h-10 sm:w-[50vw] -ml-4 border-white"></div> */}
+        <div className="border-t h-10 border-white"></div>
         <div className="bg-white p-6 rounded-lg shadow-md h-80  lg:ml-36 lg:mr-36 min-h-[345px]">
           {/* Logo */}
           <img src={billPay} alt="logo" className="w-16 mx-auto mb-4" />
@@ -34,6 +35,7 @@ const PaymentSection = () => {
       <div className="w-full lg:w-1/2 p-4 bg-[#274699] rounded-md">
         <h2 className="text-2xl font-semibold mb-6 text-center text-white">E-Seva</h2>
         <div className="border-t h-10 border-white"></div>
+        {/* <div className="border-t h-10 sm:w-[50vw] -ml-4 border-white"></div> */}
         <div className="flex flex-col sm:flex-row justify-between space-y-4 sm:space-y-0 sm:space-x-4">
           {/* Customer Registration Card */}
           <div className="bg-white p-6 rounded-lg shadow-md sm:w-1/2 min-h-[345px] flex flex-col justify-between">

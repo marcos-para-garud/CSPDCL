@@ -45,7 +45,7 @@ const MyAccount = ({ customerName }) => {
       </div>
       {/* Left Sidebar */}
       <div className='flex'>
-      <div className="sm:w-[12.5%] w-[24%] bg-[#274699] text-white p-4 shadow-md text-sm ps-2">
+      <div className="sm:w-[12.5%] w-[27%] bg-[#274699] text-white p-4 shadow-md text-sm ps-2">
           <ul className="space-y-4">
             <li className="font-semibold cursor-pointer" onClick={toggleConsumerAccount}>
               Consumer Account

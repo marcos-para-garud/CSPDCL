@@ -15,18 +15,8 @@ const FourCardsSection = () => {
       <div className="container mx-auto px-4">
         
 
-        <div className="grid grid-cols-1 md:mx-14 mx-[20vw] md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {/* Card 1 */}
-          {/* <div className="bg-white p-4 w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
-            <img src={logo1} alt="Logo 1" className="h-16 w-16 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-center mb-2">Employee Login</h3>
-            <p className="text-center text-gray-700 mb-4">This is a two-line sentence describing the content.</p>
-            <button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-900 block mx-auto">
-              Login
-            </button>
-          </div> */}
-
-<div className="bg-white p-4 w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
+        <div className="grid grid-cols-1 md:mx-14 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="bg-white p-4 sm:w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
             <img src={logo1} alt="Logo 1" className="h-16 w-16 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-center mb-2">Employee Login</h3>
             <p className="text-center text-gray-700 mb-4">This is a two-line sentence describing the content.</p>
@@ -38,7 +28,7 @@ const FourCardsSection = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white p-4 w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
+          <div className="bg-white p-4 sm:w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
             <img src={logo2} alt="Logo 2" className="h-16 w-16 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-center mb-2">Dashboard</h3>
             <p className="text-center text-gray-700 mb-4">This is a two-line sentence describing the content.</p>
@@ -50,7 +40,7 @@ const FourCardsSection = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-4 w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
+          <div className="bg-white p-4 sm:w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
             <img src={logo3} alt="Logo 3" className="h-16 w-16 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-center mb-2">Mail Box</h3>
             <p className="text-center text-gray-700 mb-4">This is a two-line sentence describing the content.</p>
@@ -60,7 +50,7 @@ const FourCardsSection = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white p-4 w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
+          <div className="bg-white p-4 sm:w-64 rounded-lg shadow-lg border-2 border-blue-300 ">
             <img src={logo4} alt="Logo 4" className="h-16 w-16 mx-auto mb-4" />
             <h3 className="text-xl font-semibold text-center mb-2">FeedBack</h3>
             <p className="text-center text-gray-700 mb-4">This is a two-line sentence describing the content.</p>

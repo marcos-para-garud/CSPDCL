@@ -54,7 +54,7 @@ const MyLinkedAccount = () => {
 
   return (
     <>
-    <div className="w-full bg-[#E1E1E1] shadow-md mt-6 rounded-md ">
+    <div className="sm:w-full bg-[#E1E1E1] sm:ml-0 -ml-5 shadow-md mt-6 rounded-md ">
       <h2 className="text-xl font-semibold p-4 ">My Linked Account</h2>
       <div className='relative overflow-x-auto'>
       <table className="w-full table-auto border-collapse">

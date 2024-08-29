@@ -13,7 +13,7 @@ const MyAccountRightSidebar = () => {
       <h2 className="text-xl font-semibold mb-4">My Account</h2>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
         {/* Box 1 */}
-        <div className="bg-[#E1E1E1] p-6 shadow-sm rounded">
+        <div className="bg-[#E1E1E1] sm:ml-0 -ml-5 sm:p-6 p-3 shadow-sm rounded">
           <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-[#274699]">
             <div className="font-semibold text-[#274699]">BP Number:</div>
             <div>123456789</div>
@@ -27,13 +27,13 @@ const MyAccountRightSidebar = () => {
             <div>1234 Main St, City, State, 123456</div>
             <div className="font-semibold text-[#274699]">Mobile No.:</div>
             <div>*******222</div>
-            <div className="font-semibold text-[#274699]">Email ID:</div>
-            <div>***@yahoo.com</div>
+            <div className="font-semibold text-[#274699] ">Email ID:</div>
+            <div className='break-words'>***@yahoo.com</div>
           </div>
         </div>
 
         {/* Box 2 */}
-        <div className="bg-[#E1E1E1] p-6 shadow-sm rounded flex flex-col">
+        <div className="bg-[#E1E1E1] sm:ml-0 -ml-5 sm:p-6 p-3  shadow-sm rounded flex flex-col">
           <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-[#274699]">
             <div className="font-semibold text-[#274699]">First Name:</div>
             <div>Jitendra</div>
@@ -42,14 +42,14 @@ const MyAccountRightSidebar = () => {
             <div className="font-semibold text-[#274699]">Mobile Number:</div>
             <div>*******222</div>
             <div className="font-semibold text-[#274699]">Email ID:</div>
-            <div>***@yahoo.com</div>
+            <div className='break-words'>***@yahoo.com</div>
             <div className="font-semibold text-[#274699]">Address:</div>
             <div>1234 Main St, City, State, 123456</div>
           </div>
         </div>
 
         {/* Box 3 */}
-        <div className="bg-[#E1E1E1] p-6 shadow-sm rounded flex flex-col text-[#274699]">
+        <div className="bg-[#E1E1E1] sm:ml-0 -ml-5 sm:p-6 p-3 shadow-sm rounded flex flex-col text-[#274699]">
           <div className="flex flex-col space-y-2">
             <label className="flex items-center">
               <input type="checkbox" className="mr-2" />
@@ -83,7 +83,7 @@ const MyAccountRightSidebar = () => {
         </div>
 
         {/* Box 4 */}
-        <div className="bg-[#E1E1E1] p-6 shadow-sm rounded">
+        <div className="bg-[#E1E1E1] sm:ml-0 -ml-5 sm:p-6 p-3 shadow-sm rounded">
           <h3 className="font-semibold text-lg mb-2">My Primary Account</h3>
           <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-[#274699]">
             <div className="font-semibold text-[#274699]">BP number</div>
